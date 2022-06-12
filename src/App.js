@@ -6,10 +6,7 @@ import Navbar from "./components/Navbar";
 import { authContext } from "./context/AuthContext";
 
 export default function App() {
-
   const user = useContext(authContext);
-
-  console.log(user);
 
   return (
     <BrowserRouter>
